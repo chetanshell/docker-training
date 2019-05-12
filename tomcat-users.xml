@@ -3,4 +3,5 @@
               xsi:schemaLocation="http://tomcat.apache.org/xml tomcat-users.xsd"
               version="1.0">
   <user username="admin" password="secret" roles="manager-gui"/>
-</tomcat-users>
+</tomcat-users> 
+#sample
