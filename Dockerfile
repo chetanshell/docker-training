@@ -1,6 +1,6 @@
 FROM tomcat
 
-RUN yum update -y
+RUN yum update
 
 WORKDIR /usr/local/tomcat
 
