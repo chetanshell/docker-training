@@ -1,7 +1,5 @@
 FROM tomcat
 
-RUN yum update -y
-
 WORKDIR /usr/local/tomcat
 
 COPY tomcat-users.xml /usr/local/tomcat/conf/tomcat-users.xml
