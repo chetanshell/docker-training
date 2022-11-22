@@ -1,0 +1,35 @@
+Install docker in linux machine
+---------------------------------------
+sudo yum update
+sudo yum install docker
+service docker status
+
+---------------------------------------
+docker pull <image>
+docker start <container>
+docker stop <container>
+dokcer kill <container>
+
+docker ps
+docker ps -a
+dokcer inspect container
+
+docker images
+docker inspect <image>
+docker tag <image> <tag>
+docker rmi <image>
+
+docker login
+docker logout
+
+docker create [IMAGE]
+docker run <cmd> <image>
+
+docker run --rm [IMAGE] – removes a container after it exits.
+
+docker run -td [IMAGE] – starts a container and keeps it running.
+
+docker run -it [IMAGE] – starts a container, allocates a pseudo-TTY connected to the container’s stdin, and creates an interactive bash shell in the container.
+
+docker exec -it f039191d9098 bash - This will create a new Bash session in the container
+docker exec -d f039191d9098 touch /tmp/sample - This will create a new file /tmp/execWorks inside the running container
